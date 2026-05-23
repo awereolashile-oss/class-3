@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="post">
+        <input type="text" name="Firstname" value="Joe" disabled>
+        <input type="number" placeholder="Enter your number">
+        <input type="email">
+        <input type="password">
+        <input type="date">
+
+        <div>
+            <h4>Gender</h4>
+            <label for="Male">Male</label>
+            <input id="Male" name="gender" type="radio">
+            <label for="Female">Female</label>
+            <input id="Female" name="gender" type="radio">
+        </div>
+        <div>
+            <h4>Relationship status</h4>
+            <label for="single">single</label>
+            <input type="radio" id="single" name="status">
+            <label for="married">married</label>
+            <input type="radio" id="married" name="status">
+            <label for="In a relationship">In a relationship</label>
+            <input type="radio" id="In a relationship" name="status">
+            <label for="Situationship">Situationship</label>
+            <input type="radio" id="Situationship" name="status">
+        </div>
+
+        <div>
+            <h4>Subject</h4>
+            <p>Select your Favorite subject</p>
+
+            <label for="Mathematics">Mathematics</label>
+            <input type="checkbox" id="Mathematics">
+
+            <label for="Geography">Geography</label>
+            <input type="checkbox" id="Geography">
+
+            <label for="Technical Drawing">Technical Drawing</label>
+            <input type="checkbox" id="Technical Drawing">
+
+            <label for="Civic Education">Civic Education</label>
+            <input type="checkbox" id="Civic Education">
+
+            <label for="Physics">Physics</label>
+            <input type="checkbox" id="Physics">
+
+            <label for="Biology">Biology</label>
+            <input type="checkbox" id="Biology">
+
+            <input type="checkbox" id="Chemistry">
+            <label for="Chemistry">Chemistry</label>
+         </div>
+
+         <div>
+            <input type="range">
+         </div>
+         <div>
+            <button type="submit">submit</button>
+         </div>
+         <textarea name="" id="" cols="30" rows="10">Drop your feedback here</textarea>
+
+         <div>
+            <h4>Countries</h4>
+            <select name="" id="">
+                <option value="">Nigeria</option>
+                <option value="">America</option>
+                <option value="">Nigeria</option>
+                <option value="">Nigeria</option>
+                <option value="">Nigeria</option>
+                <option value="">Nigeria</option>
+                <option value="">Nigeria</option>
+                <option value="">Nigeria</option>
+            </select>
+         </div>
+    </form>
+</body>
+</html>
